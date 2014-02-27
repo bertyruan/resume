@@ -16,10 +16,6 @@ div {
 	margin: 35px 250px 35px 250px;
 }
 
-span {
-	font-family: 'sans-serif';
-}
-
 li {
   display: block;
   line-height: 25px;
@@ -39,17 +35,16 @@ h3 {
 }
 
 .resume_header {
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
-	display: block;
 	background: rgba(127, 140, 141, 0.5);
 	background-size: cover;
 	border-radius: 10px;
 	bottom: 100px;
 }
 
-.resume_subheader {
-	font-size: 24px;
+.thirty_px_font {
+	font-size: 30px;
 }
 
 .content_header {
@@ -73,4 +68,13 @@ h3 {
 .paragraph_height {
 	line-height: 35px;
 	font-size: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.small_padding {
+	margin-top: -20px;
+	margin-bottom: -20px;
 }
