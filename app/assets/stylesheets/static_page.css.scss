@@ -10,10 +10,20 @@ body {
 	background: rgba(236, 240, 241,1.0); 
 }
 
-div {
+.margin {
 	font-family: 'sans-serif';
 	font-size: 18px;
 	margin: 35px 250px 35px 250px;
+}
+
+.margin_two {
+	
+	margin: 35px 250px 35px 250px;
+}
+
+.margin_three {
+	
+	margin-top: 20px; 
 }
 
 li {
@@ -48,19 +58,19 @@ h3 {
 }
 
 .content_header {
-  font-size: 22px;
-  font-style:italic;
+  font-size: 24px;
+  font-style:bold;
 }
 
 .indent {
-	position: relative;
+
 	padding-left: 20px;
 	font-size: 18px;
 }
 
 .right_align {
 	text-align: left;
-	position: absolute;
+
 	left: 65%;
 	font-size: 18px;
 }
