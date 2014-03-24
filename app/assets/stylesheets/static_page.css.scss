@@ -7,7 +7,13 @@
 body {
 	font-family: 'sans-serif';
 	font-size: 18px;
-	background: rgba(236, 240, 241,1.0); 
+	background: rgba(153, 194, 235, 0.1);
+	background: rgba(148, 255, 122, 0.15);
+}
+
+img {
+	border-radius: 30px;
+	border: 2px solid gray;
 }
 
 .margin {
@@ -47,7 +53,7 @@ h3 {
 .resume_header {
 	font-size: 20px;
 	text-align: center;
-	background: rgba(127, 140, 141, 0.5);
+	background: rgba(127, 140, 141, 0.2);
 	background-size: cover;
 	border-radius: 10px;
 	bottom: 100px;
@@ -87,4 +93,10 @@ h3 {
 .small_padding {
 	margin-top: -20px;
 	margin-bottom: -20px;
+}
+
+.picture {
+	text-align: center;
+	margin: -5px 0 35px 0;
+	margin-bottom: 35px;
 }
